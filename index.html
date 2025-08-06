@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-    <title>Mi Página en GitHub Pages</title>
-    <style>
-        body { font-family: Arial; text-align: center; }
-        h1 { color: #2e86de; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información sobre los principales lenguajes de programación y sus paradigmas">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Lenguajes de Programación</title>
 </head>
+
 <body>
-    <h1>¡Hola Mundo! 🌎</h1>
-    <p>Bienvenido a mi página en GitHub Pages.</p>
+    <!-- Cabecera con navegación principal -->
+    <header>
+        <nav class="main-nav">
+           
+            <a href="#2Seccion">Lenguajes</a>
+            <a href="#1Seccion">Inicio</a>
+            <a href="#3Seccion">Shells</a> 
+           <!-- <a href="#footer">Contacto</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección principal -->
+        <section id="1Seccion" class="hero-section">
+            <h1>¿Que son los lenguajes de programación?</h1>
+            <p>Los lenguajes de programación son conjuntos de reglas y sintaxis que permiten a los programadores escribir código fuente para desarrollar software, scripts o aplicaciones. Estos lenguajes proporcionan un conjunto de instrucciones que se traducen en un código ejecutable que la computadora puede entender y ejecutar.</p>
+            
+            <div class="quick-nav">
+                <h2>Secciones:</h2>
+                
+                <a href="#1Seccion" class="enlace-seccion">¿Que son los lengusjes de programacion?</a>
+                <br>
+                <a href="#2Seccion" class="enlace-seccion">Populares</a>
+                <br>
+                <a href="#3Seccion" class="enlace-seccion">Paradigmas</a>
+
+            </div>
+        </section>
+
+        <!-- Sección de lenguajes -->
+        <section id="2Seccion" class="languages-section">
+            <h2>Lenguajes de programación más populares</h2>
+            
+            <div class="language-grid">
+                <article class="language-card">
+                    <h3>C</h3>
+                    <img src="Imagenes/CPL.png" alt="Logo de C" loading="lazy">
+                    <p>Un lenguaje de programación de propósito general que ha sido ampliamente utilizado y ha influido en el diseño de muchos otros lenguajes.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección de paradigmas -->
+        <section id="3Seccion" class="paradigms-section">
+            <h2>Paradigmas de programación</h2>
+            <p>Un paradigma de programación es una forma de organizar y escribir el código de un programa. Es como un estilo o una manera de pensar para resolver problemas con la computadora. <br> Cada paradigma tiene sus propias reglas y métodos para decirle a la computadora qué hacer. Algunos se enfocan en dar instrucciones paso a paso, otros en usar funciones, y algunos en trabajar con objetos.</p>
+            
+            
+            <div class="paradigm-list">
+                <article class="paradigm-card">
+                    <h3>Programación Imperativa</h3>
+                    <p>Se enfoca en describir detalladamente los pasos que el programa debe tomar para alcanzar el estado deseado.</p>
+                    <p><strong>Ejemplos:</strong> C, Pascal</p>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#1Seccion">Inicio</a>
+                <a href="#2Seccion">Lenguajes</a>
+                <a href="#3Seccion">Paradigmas</a>
+                <a href="https://dav1dmonrris.github.io/Contacto/">Contacto</a>
+                <a href="#" aria-label="Política de privacidad">Privacidad</a>
+            </nav>
+            <p class="copyright">&copy; 2023 Guía de Lenguajes de Programación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
+</html>
